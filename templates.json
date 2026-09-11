@@ -1,0 +1,2858 @@
+{
+  "$schema": "https://registry.getarcane.app/schema.json",
+  "name": "Technorabilia LinuxServer.io Templates",
+  "description": "Arcane templates for LinuxServer.io Docker containers, based on data provided by LinuxServer.io.",
+  "author": "technorabilia",
+  "url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+  "version": "2026.9.11",
+  "templates": [
+    {
+      "id": "adguardhome-sync",
+      "name": "Adguardhome-sync",
+      "description": "[Adguardhome-sync](https://github.com/bakito/adguardhome-sync/) is a tool to synchronize AdGuardHome config to replica instances.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/adguardhome-sync/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "c07b44fe565b576f8455ea9a54e83fac65177986748faabf20743a3cbc1b3021",
+      "tags": [
+        "Network",
+        "DNS"
+      ]
+    },
+    {
+      "id": "airsonic-advanced",
+      "name": "Airsonic-advanced",
+      "description": "[Airsonic-advanced](https://github.com/kagemomiji/airsonic-advanced) is a free, web-based media streamer, providing ubiquitious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/airsonic-advanced/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "905ab999d5d7740508af249276c193739f7155b3d34e0ab404f3e98422862d58",
+      "tags": [
+        "Media-Servers",
+        "Music"
+      ]
+    },
+    {
+      "id": "altus",
+      "name": "Altus",
+      "description": "[Altus](https://github.com/amanharwara/altus) is an Electron-based WhatsApp client with themes and multiple account support.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/altus/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "5bc728eba427fe6ad2b107947845d7af4ee6732b69bc1dd0500f8060ef54450a",
+      "tags": [
+        "Chat"
+      ]
+    },
+    {
+      "id": "apprise-api",
+      "name": "Apprise-api",
+      "description": "[Apprise-api](https://github.com/caronc/apprise-api) Takes advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user- friendly API. * Send notifications to more than 100 services. * An incredibly lightweight gateway to Apprise. * A production ready micro-service at your disposal. * A Simple Website to verify and test your configuration with. Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/apprise-api/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "9626b6eda3ef251c8dd9b073a1fcf89fc306189e9f6b9c33a0b97b932548d155",
+      "tags": [
+        "Monitoring"
+      ]
+    },
+    {
+      "id": "ardour",
+      "name": "Ardour",
+      "description": "[Ardour](https://ardour.org/) is an open source, collaborative effort of a worldwide team including musicians, programmers, and professional recording engineers.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/ardour/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "f47f528007055932fbed113295266c880a56357243af59e9db7954a16a4ab940",
+      "tags": [
+        "Audio-Processing"
+      ]
+    },
+    {
+      "id": "audacity",
+      "name": "Audacity",
+      "description": "[Audacity](https://www.audacityteam.org/) is an easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/audacity/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "c748fa9b386501154941f608ab52f63cd00cf503c8a931b919ed9e005a7754b0",
+      "tags": [
+        "Audio-Processing"
+      ]
+    },
+    {
+      "id": "azahar",
+      "name": "Azahar",
+      "description": "[Azahar](https://azahar-emu.org/) is an open-source 3DS emulator based on Citra.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/azahar/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "5619db36baae27ba02f9d82ca9e13b05ff7c114ef8e9d1f152d2cd2597232e17",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "babybuddy",
+      "name": "Babybuddy",
+      "description": "[Babybuddy](https://github.com/babybuddy/babybuddy) is a buddy for babies! Helps caregivers track sleep, feedings, diaper changes, tummy time and more to learn about and predict baby's needs without (as much) guess work.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/babybuddy/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "db15e98d3b56d82cf6f05147b0a103e3805669b6fbccd2a2d51e019f75976ef1",
+      "tags": [
+        "Family"
+      ]
+    },
+    {
+      "id": "bambustudio",
+      "name": "Bambustudio",
+      "description": "[Bambu Studio](https://bambulab.com/en/download/studio) is an open-source, cutting-edge, feature-rich slicing software. It contains project-based workflows, systematically optimized slicing algorithms, and an easy-to-use graphical interface, bringing users an incredibly smooth printing experience.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/bambustudio/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "4dc370c7220cb609d24c2e3ab33589687787386392d097fdd0eda9725cbea304",
+      "tags": [
+        "3D-Printing"
+      ]
+    },
+    {
+      "id": "bazarr",
+      "name": "Bazarr",
+      "description": "[Bazarr](https://www.bazarr.media/) is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/bazarr/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "f507777a66a107015b3ae5315b39a2b308f5e79a88043b7e8691c473d9a5b97b",
+      "tags": [
+        "Media-Management"
+      ]
+    },
+    {
+      "id": "beets",
+      "name": "Beets",
+      "description": "[Beets](http://beets.io/) is a music library manager and not, for the most part, a music player. It does include a simple player plugin and an experimental Web-based player, but it generally leaves actual sound- reproduction to specialized tools.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/beets/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "f4665dcf321cccd52ec72b1ea4943d4102b5d18b1435348c4b6edc19874d7b5e",
+      "tags": [
+        "Music"
+      ]
+    },
+    {
+      "id": "bitcoin-knots",
+      "name": "Bitcoin-knots",
+      "description": "[Bitcoin Knots](https://bitcoinknots.org/) can be used as a desktop client for regular payments or as a full node server utility for merchants and other payment services.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/bitcoin-knots/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "0e3a77de65af2a01c40fa13bb08a5f12da905dc29aea169be5dabcee2ccee6fa",
+      "tags": [
+        "Finance"
+      ]
+    },
+    {
+      "id": "blade-of-agony",
+      "name": "Blade-of-agony",
+      "description": "[Wolfenstein: Blade of Agony](https://boa.realm667.com/) is a story-driven WWII shooter inspired by Wolfenstein and Doom.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/blade-of-agony/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "2e86ec6faac0cc98a2ebf01497ff6f2f2be08d856480fdc9f378e0851f48d666",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "description": "[Blender](https://www.blender.org/) is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games. **This image does not support GPU rendering out of the box only accelerated workspace experience**",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/blender/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "843af79acbf422d53eddeb3c01c0e5e9bbf0d21e3fac163a710eac31b8a5dc86",
+      "tags": [
+        "3D-Modeling"
+      ]
+    },
+    {
+      "id": "boinc",
+      "name": "Boinc",
+      "description": "[BOINC](https://boinc.berkeley.edu/) is a platform for high-throughput computing on a large scale (thousands or millions of computers). It can be used for volunteer computing (using consumer devices) or grid computing (using organizational resources). It supports virtualized, parallel, and GPU-based applications.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/boinc/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "fb9454a28eaf7970cb173f117a2e454f405b418ed4966bc3abd1bb8dca700a8b",
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "id": "bookstack",
+      "name": "Bookstack",
+      "description": "[Bookstack](https://codeberg.org/bookstack/bookstack) is a free and open source Wiki designed for creating beautiful documentation. Featuring a simple, but powerful WYSIWYG editor it allows for teams to create detailed and useful documentation with ease. Powered by SQL and including a Markdown editor for those who prefer it, BookStack is geared towards making documentation more of a pleasure than a chore. For more information on BookStack visit their website and check it out: https://www.bookstackapp.com",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/bookstack/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "76832cf83a95ed504ee5f8b883200e05d1d2db5956d5b252100e26ea94d2cfe7",
+      "tags": [
+        "Content-Management"
+      ]
+    },
+    {
+      "id": "brave",
+      "name": "Brave",
+      "description": "[The Brave browser](https://brave.com/) is a fast, private and secure web browser for PC, Mac and mobile.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/brave/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "b80d424c1fc013feec75c4fb114da86d8f89beac07cfc81220b3f8c541823aa3",
+      "tags": [
+        "Web-Browser"
+      ]
+    },
+    {
+      "id": "budge",
+      "name": "Budge",
+      "description": "[Budge](https://github.com/linuxserver/budge) is an open source 'budgeting with envelopes' personal finance app.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/budge/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "9586665a0b4848843d04e63f29170bbbd0417125a8a6acc7f644c782e99c7407",
+      "tags": [
+        "Finance"
+      ]
+    },
+    {
+      "id": "calibre",
+      "name": "Calibre",
+      "description": "[Calibre](https://calibre-ebook.com/) is a powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/calibre/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "a18b48d876c9868ec90509fa3c0affa9e8c4a1e15fc75a6f8dacd5a1f8f17f34",
+      "tags": [
+        "Books"
+      ]
+    },
+    {
+      "id": "calibre-web",
+      "name": "Calibre-web",
+      "description": "[Calibre-web](https://github.com/janeczku/calibre-web) is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database. It is also possible to integrate google drive and edit metadata and your calibre library through the app itself. This software is a fork of library and licensed under the GPL v3 License.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/calibre-web/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "4d8fc069f44e265b8aab64efae3c44be1ca8440347720944dd7adf9409d4efe7",
+      "tags": [
+        "Books"
+      ]
+    },
+    {
+      "id": "calligra",
+      "name": "Calligra",
+      "description": "[Calligra](https://calligra.org/) is an office and graphic art suite by KDE. It is available for desktop PCs, tablet computers, and smartphones. It contains applications for word processing, spreadsheets, presentation, vector graphics, and editing databases.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/calligra/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "adc2bd0e2adde871b43333ffe9acbfe23c8cb82f3f4f27a54fb2919505033621",
+      "tags": [
+        "Documents"
+      ]
+    },
+    {
+      "id": "changedetection.io",
+      "name": "Changedetection.io",
+      "description": "[Changedetection.io](https://github.com/dgtlmoon/changedetection.io) provides free, open-source web page monitoring, notification and change detection.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/changedetection.io/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "be0e1d7c0524b5c8bf6c8ce15c694a6deb525e7d227dfaaa11972ff1be9b7b0d",
+      "tags": [
+        "Web-Tools",
+        "Automation"
+      ]
+    },
+    {
+      "id": "chrome",
+      "name": "Chrome",
+      "description": "[Chrome](https://www.google.com/chrome/) is the official web browser from Google, built to be fast, secure, and customizable.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/chrome/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "e36c9500ecf8f7cce86841331135641515b5dedee890432196d29932d7e89b62",
+      "tags": [
+        "Web-Browser"
+      ]
+    },
+    {
+      "id": "chromium",
+      "name": "Chromium",
+      "description": "[Chromium](https://www.chromium.org/chromium-projects/) is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/chromium/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "00a78c90f5777ba90e5b5eb538a0a768d9a2daeb23f1c22ca3839b082d8c6a34",
+      "tags": [
+        "Web-Browser"
+      ]
+    },
+    {
+      "id": "code-server",
+      "name": "Code-server",
+      "description": "[Code-server](https://coder.com) is VS Code running on a remote server, accessible through the browser. - Code on your Chromebook, tablet, and laptop with a consistent dev environment. - If you have a Windows or Mac workstation, more easily develop for Linux. - Take advantage of large cloud servers to speed up tests, compilations, downloads, and more. - Preserve battery life when you're on the go. - All intensive computation runs on your server. - You're no longer running excess instances of Chrome.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/code-server/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "3296cc91b754ba5218a5325641ba407b9acef530bbca14c5abb7da58ddd2c03c",
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "id": "cops",
+      "name": "Cops",
+      "description": "[Cops](https://github.com/mikespub-org/seblucas-cops) by S\u00e9bastien Lucas, now maintained by MikesPub, stands for Calibre OPDS (and HTML) Php Server. COPS links to your Calibre library database and allows downloading and emailing of books directly from a web browser and provides a OPDS feed to connect to your devices. Changes in your Calibre library are reflected immediately in your COPS pages. See : [COPS's home](https://github.com/mikespub-org/seblucas-cops) for more details. Don't forget to check the [Wiki](https://github.com/mikespub-org/seblucas-cops/wiki). ## Why? (taken from the author's site) In my opinion Calibre is a marvelous tool but is too big and has too much dependencies to be used for its content server. That's the main reason why I coded this OPDS server. I needed a simple tool to be installed on a small server (Seagate Dockstar in my case). I initially thought of Calibre2OPDS but as it generate static file no search was possible. Later I added an simple HTML catalog that should be usable on my Kobo. So COPS's main advantages are : * No need for many dependencies. * No need for a lot of CPU or RAM. * Not much code. * Search is available. * With Dropbox / owncloud it's very easy to have an up to date OPDS server. * It was fun to code. If you want to use the OPDS feed don't forget to specify /feed at the end of your URL.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/cops/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "4ab57de98abd2f9724c6d9e897451526db4b058de2493834a6821cf0a3419767",
+      "tags": [
+        "Books"
+      ]
+    },
+    {
+      "id": "cura",
+      "name": "Cura",
+      "description": "[UltiMaker Cura](https://ultimaker.com/software/ultimaker-cura/) is free, easy-to-use 3D printing software trusted by millions of users. Fine-tune your 3D model with 400+ settings for the best slicing and printing results.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/cura/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "8b7812b449e7d6bb580dd75fd834129299ea2ffe583f9851739dbb1a4ad2373f",
+      "tags": [
+        "3D-Printing"
+      ]
+    },
+    {
+      "id": "darktable",
+      "name": "Darktable",
+      "description": "[darktable](https://www.darktable.org/) is an open source photography workflow application and raw developer. A virtual lighttable and darkroom for photographers. It manages your digital negatives in a database, lets you view them through a zoomable lighttable and enables you to develop raw images and enhance them.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/darktable/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "ef8e019235fa099437532a1326028577c2dccd1dd887b690915aa69a2b4193b8",
+      "tags": [
+        "Photos"
+      ]
+    },
+    {
+      "id": "davos",
+      "name": "Davos",
+      "description": "[Davos](https://github.com/linuxserver/davos) is an FTP automation tool that periodically scans given host locations for new files. It can be configured for various purposes, including listening for specific files to appear in the host location, ready for it to download and then move, if required. It also supports completion notifications as well as downstream API calls, to further the workflow.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/davos/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "d2bc1f9335823d343a4be91091ad24677e59ca64e1c8173688fabda23e7f3583",
+      "tags": [
+        "FTP"
+      ]
+    },
+    {
+      "id": "ddclient",
+      "name": "Ddclient",
+      "description": "[Ddclient](https://github.com/ddclient/ddclient) is a Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider. It was originally written by Paul Burry and is now mostly by wimpunk. It has the capability to update more than just dyndns and it can fetch your WAN-ipaddress in a few different ways.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/ddclient/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "94438cef1633f390b9d816793c6650fa6a9e6a5107ffc1d70e69e8265da1fae9",
+      "tags": [
+        "Network",
+        "DNS"
+      ]
+    },
+    {
+      "id": "deluge",
+      "name": "Deluge",
+      "description": "[Deluge](http://deluge-torrent.org/) is a lightweight, Free Software, cross- platform BitTorrent client. * Full Encryption * WebUI * Plugin System * Much more...",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/deluge/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "2042807a2d93b917ca4f700f606d85dc3a8839cb33171330f92e5978d8317762",
+      "tags": [
+        "Downloaders"
+      ]
+    },
+    {
+      "id": "digikam",
+      "name": "Digikam",
+      "description": "[digiKam](https://www.digikam.org/): Professional Photo Management with the Power of Open Source",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/digikam/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "40e4efe50ce4c3baad2f293e95ad01d88e34f58f7abd4e8ea31e94c43d65c317",
+      "tags": [
+        "Photos"
+      ]
+    },
+    {
+      "id": "diskover",
+      "name": "Diskover",
+      "description": "[Diskover](https://github.com/diskoverdata/diskover-community) is an open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/diskover/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "b7324ed32889fb306b7eba0d767b2ba9ce657a7d099eee720a04aee939a5afcf",
+      "tags": [
+        "Storage",
+        "Monitoring"
+      ]
+    },
+    {
+      "id": "dogwalk",
+      "name": "Dogwalk",
+      "description": "[DOGWALK](https://studio.blender.org/projects/dogwalk/) is Blender Studio's long awaited second game project, focused on creating a bite-sized interactive storytelling playground. Play as a big adorable dog and explore the winter woods with a little kid.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/dogwalk/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "2c23329cf48ff3a14882872d5009c44c43224bb92f14ab5675e6c710be683845",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "dokuwiki",
+      "name": "Dokuwiki",
+      "description": "[Dokuwiki](https://www.dokuwiki.org/dokuwiki/) is a simple to use and highly versatile Open Source wiki software that doesn't require a database. It is loved by users for its clean and readable syntax. The ease of maintenance, backup and integration makes it an administrator's favorite. Built in access controls and authentication connectors make DokuWiki especially useful in the enterprise context and the large number of plugins contributed by its vibrant community allow for a broad range of use cases beyond a traditional wiki.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/dokuwiki/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "fd719690821e1bca2b2950ff363e8e4fa318b77d3f700cc0fc14f619ec77463c",
+      "tags": [
+        "Content-Management"
+      ]
+    },
+    {
+      "id": "dolphin",
+      "name": "Dolphin",
+      "description": "[Dolphin Emulator](https://dolphin-emu.org/) lets you play GameCube and Wii games with various graphical enhancements and other features are available to improve your game experience.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/dolphin/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "e36bffe3dd60b0248feccb922fafba8280191ecebfe46e08c8dd9a6ba08f0d40",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "doplarr_rs",
+      "name": "Doplarr_rs",
+      "description": "[Doplarr_rs](https://github.com/activexray/doplarr_rs) is a Discord bot for requesting media through *arr backends, written in Rust.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/doplarr_rs/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "b8742566c29483d5774dcd7feedbdec42cdef0d0ba3c98c0e8bd2f169904ace2",
+      "tags": [
+        "Media-Requesters"
+      ]
+    },
+    {
+      "id": "dosbox-staging",
+      "name": "Dosbox-staging",
+      "description": "[DOSBox Staging](https://www.dosbox-staging.org/) is a modern continuation of DOSBox a free and open-source emulator that enables the execution of MS-DOS software, especially video games.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/dosbox-staging/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "f913f70de3a36b62e2fdbb41fb83499c63694a1f5664f65d71e3a4ed5d2f0b64",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "doublecommander",
+      "name": "Doublecommander",
+      "description": "[Double Commander](https://doublecmd.sourceforge.io/) is a free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/doublecommander/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "50fc8d0a09f2ceeaae357458ed9310c8c499d1ebfaddea8b9fb0e624d308c3eb",
+      "tags": [
+        "Administration",
+        "Storage"
+      ]
+    },
+    {
+      "id": "duckdns",
+      "name": "Duckdns",
+      "description": "[Duckdns](https://duckdns.org/) is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/duckdns/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "dd16318d065cf437af22620746e47b8f91dd1aa092b23e1761ed6ebe43577e44",
+      "tags": [
+        "Network",
+        "DNS"
+      ]
+    },
+    {
+      "id": "duckstation",
+      "name": "Duckstation",
+      "description": "[DuckStation](https://duckstation.org/) is a PS1 Emulator aiming for the best accuracy and game support.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/duckstation/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "321d4573ef8566a4d256bcb722f3d37a363e3b8baceb8080a2662f88d8ce9248",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "duplicati",
+      "name": "Duplicati",
+      "description": "[Duplicati](https://www.duplicati.com/) is a backup client that securely stores encrypted, incremental, compressed backups on local storage, cloud storage services and remote file servers. It works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon S3, Google Drive, box.com, Mega, B2, and many others.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/duplicati/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "3cb5f8bde38e8bff62fc79eac60717758a65353423ecd1d50a08b65c5cfd1e78",
+      "tags": [
+        "Backup"
+      ]
+    },
+    {
+      "id": "eden",
+      "name": "Eden",
+      "description": "[Eden](https://eden-emu.dev/) is an experimental open-source emulator for the Nintendo Switch, built with performance and stability in mind.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/eden/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "986045201447fd563a78544cd73c32eb88afde464eb3f66a8a0b1186d0aeedae",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "emby",
+      "name": "Emby",
+      "description": "[Emby](https://emby.media/) organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/emby/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "8370d52731df4c5fe727a7a0dcd80524c4bc79bfc4224595c30e0b6ab2b428a6",
+      "tags": [
+        "Media-Servers",
+        "Music",
+        "Audiobooks"
+      ]
+    },
+    {
+      "id": "fail2ban",
+      "name": "Fail2ban",
+      "description": "[Fail2ban](http://www.fail2ban.org/) is a daemon to ban hosts that cause multiple authentication errors.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/fail2ban/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "3f403089dab44257a7d9b21ac6b2c7be2f30c218dbad789aeb037c2f21d292e9",
+      "tags": [
+        "Network",
+        "Security"
+      ]
+    },
+    {
+      "id": "faster-whisper",
+      "name": "Faster-whisper",
+      "description": "[Faster-whisper](https://github.com/SYSTRAN/faster-whisper) is a reimplementation of OpenAI's Whisper model using CTranslate2, which is a fast inference engine for Transformer models. This container provides a Wyoming protocol server for faster-whisper.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/faster-whisper/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "a03123b92fd5466063bbd86fe38a8d3792421c8f17e299fa31fe1126e812f837",
+      "tags": [
+        "Machine-Learning"
+      ]
+    },
+    {
+      "id": "ferdium",
+      "name": "Ferdium",
+      "description": "[Ferdium](https://ferdium.org/) is a desktop app that helps you organize how you use your favourite apps by combining them into one application.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/ferdium/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "eccd596c1f7ea38f32bef2c876d221a04472aea17273db3e3338670abdab7514",
+      "tags": [
+        "Chat",
+        "Social"
+      ]
+    },
+    {
+      "id": "ffmpeg",
+      "name": "Ffmpeg",
+      "description": "This container needs special attention. Please check https://hub.docker.com/r/linuxserver/ffmpeg for details.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/ffmpeg/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "672dd96e20556ffb10cc0e8372423248cefaaaae68b15ba61bcf8c78eb48550f",
+      "tags": [
+        "Media-Tools"
+      ]
+    },
+    {
+      "id": "filezilla",
+      "name": "Filezilla",
+      "description": "[FIleZilla](https://filezilla-project.org/) Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/filezilla/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "e8eaf9912a76013df8467a2bd65336550af3850cba11ec584033481c4b2cd7d8",
+      "tags": [
+        "FTP"
+      ]
+    },
+    {
+      "id": "firefox",
+      "name": "Firefox",
+      "description": "[Firefox](https://www.mozilla.org/en-US/firefox/) Browser, also known as Mozilla Firefox or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/firefox/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "d57f9ea4d0480397074aecc9a1c807513d238e5b48784365ea0aa15f1599532f",
+      "tags": [
+        "Web-Browser"
+      ]
+    },
+    {
+      "id": "flexget",
+      "name": "Flexget",
+      "description": "[Flexget](http://flexget.com/) is a multipurpose automation tool for all of your media.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/flexget/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "4fd1dbc69aa142dce32b307b0afad2ab22b8faede4286f58acaf5276ab8c84fb",
+      "tags": [
+        "Downloaders"
+      ]
+    },
+    {
+      "id": "flycast",
+      "name": "Flycast",
+      "description": "[Flycast](https://github.com/flyinghead/flycast) is a multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/flycast/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "b9996d4e2168532546b473998733df6410146093e6c99e619ef508145a9bfaea",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "foldingathome",
+      "name": "Foldingathome",
+      "description": "[Folding@home](https://foldingathome.org/) is a distributed computing project for simulating protein dynamics, including the process of protein folding and the movements of proteins implicated in a variety of diseases. It brings together citizen scientists who volunteer to run simulations of protein dynamics on their personal computers. Insights from this data are helping scientists to better understand biology, and providing new opportunities for developing therapeutics.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/foldingathome/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "545568a6884142a8b9dfed0c60f34f8d0651c1519559929d5e2ab078fe8bab3a",
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "id": "freecad",
+      "name": "Freecad",
+      "description": "[FreeCAD](https://www.freecad.org/) is a general-purpose parametric 3D computer-aided design (CAD) modeler and a building information modeling (BIM) software application with finite element method (FEM) support.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/freecad/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "71b3bf5e2558ae3f36186ed9340d4896a5e3d2a3fe4ea5d35148544702172c88",
+      "tags": [
+        "3D-Modeling"
+      ]
+    },
+    {
+      "id": "freshrss",
+      "name": "Freshrss",
+      "description": "[Freshrss](https://freshrss.org/) is a free, self-hostable aggregator for rss feeds.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/freshrss/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "0f64dc53a37c8c086727ae6f8061bc9b0ce957cc4ace57d9eb9fb65fd96cdf84",
+      "tags": [
+        "RSS"
+      ]
+    },
+    {
+      "id": "gimp",
+      "name": "Gimp",
+      "description": "[GIMP](https://www.gimp.org/) is a free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is extensible by means of plugins, and scriptable.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/gimp/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "33a497098fec98c1e9c6888f5520c23509aa4f61e7acdb96e7f052d6b2eb8c8f",
+      "tags": [
+        "Image-Editor"
+      ]
+    },
+    {
+      "id": "github-desktop",
+      "name": "Github-desktop",
+      "description": "[Github Desktop](https://desktop.github.com/) is an open source Electron-based GitHub app. It is written in TypeScript and uses React.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/github-desktop/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "b81cb40aa7f2efab650f738f55712d643300727c82e2706865ccca0e0e434a6d",
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "id": "gitqlient",
+      "name": "Gitqlient",
+      "description": "[GitQlient](https://github.com/francescmm/GitQlient) is a multi-platform Git client originally forked from QGit. Nowadays it goes beyond of just a fork and adds a lot of new functionality.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/gitqlient/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "1772daf8878b031d59f0cec3c743619af6e2cff66526489a32769922afaee076",
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "id": "grav",
+      "name": "Grav",
+      "description": "[Grav](https://github.com/getgrav/grav/) is a Fast, Simple, and Flexible, file-based Web-platform.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/grav/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "b7fb5e6cd3537eaff9ba11f6e7d072c856557b8a958b7f3d9efd9f43d66403c0",
+      "tags": [
+        "Content-Management"
+      ]
+    },
+    {
+      "id": "grocy",
+      "name": "Grocy",
+      "description": "[Grocy](https://github.com/grocy/grocy) is an ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utility. Keep track of your purchases, how much food you are wasting, what chores need doing and what batteries need charging with this proudly Open Source tool For more information on grocy visit their website and check it out: https://grocy.info",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/grocy/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "b07d0cc86f04f4ac6d9409b899526cb88496907bd9df1d0d193e88f8a66050a5",
+      "tags": [
+        "Recipes"
+      ]
+    },
+    {
+      "id": "gzdoom",
+      "name": "Gzdoom",
+      "description": "[GZDoom](https://gzdoom.app/) is a feature centric port for all Doom engine games, based on ZDoom, adding an OpenGL renderer and powerful scripting capabilities.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/gzdoom/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "2c7fff0de474ecafa5e4e489019c362fffb55d83c5e9b8d356ca31e58534195b",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "habridge",
+      "name": "Habridge",
+      "description": "[Habridge](https://github.com/bwssytems/ha-bridge/) emulates Philips Hue API to other home automation gateways such as an Amazon Echo/Dot Gen 1 (gen 2 has issues discovering ha-bridge) or other systems that support Philips Hue. The Bridge handles basic commands such as On, Off and brightness commands of the hue protocol. This bridge can control most devices that have a distinct API.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/habridge/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "de76499be467367005f6ef28221eb61744f86792cd06f1a3e56954ab54503022",
+      "tags": [
+        "Home-Automation"
+      ]
+    },
+    {
+      "id": "handbrake",
+      "name": "Handbrake",
+      "description": "[HandBrake](https://handbrake.fr/) is an open-source tool, built by volunteers, for converting video from nearly any format to a selection of modern, widely supported codecs.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/handbrake/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "398d0164e4745230ab8b30c5bf400e43647df0232423a389825653d57f0f748d",
+      "tags": [
+        "Media-Management"
+      ]
+    },
+    {
+      "id": "healthchecks",
+      "name": "Healthchecks",
+      "description": "[Healthchecks](https://github.com/healthchecks/healthchecks) is a watchdog for your cron jobs. It's a web server that listens for pings from your cron jobs, plus a web interface.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/healthchecks/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "99208e681295898907fb4786213922534916ff1bf8cac7168535dc71fc295cdf",
+      "tags": [
+        "Monitoring"
+      ]
+    },
+    {
+      "id": "hedgedoc",
+      "name": "Hedgedoc",
+      "description": "[HedgeDoc](https://hedgedoc.org/) gives you access to all your files wherever you are. HedgeDoc is a real-time, multi-platform collaborative markdown note editor. This means that you can write notes with other people on your desktop, tablet or even on the phone. You can sign-in via multiple auth providers like Facebook, Twitter, GitHub and many more on the homepage.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/hedgedoc/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "e259a9d67b171f70e184c2e3f3700d5d75c4981fb0caff87e2b73aeb210219d3",
+      "tags": [
+        "Content-Management"
+      ]
+    },
+    {
+      "id": "heimdall",
+      "name": "Heimdall",
+      "description": "[Heimdall](https://heimdall.site) is a way to organise all those links to your most used web sites and web applications in a simple way. Simplicity is the key to Heimdall. Why not use it as your browser start page? It even has the ability to include a search bar using either Google, Bing or DuckDuckGo.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/heimdall/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "4c9369b8e42448902094799a087e37148ff9b5d23a69a0bed4fc43c03f3838f7",
+      "tags": [
+        "Dashboard"
+      ]
+    },
+    {
+      "id": "helium",
+      "name": "Helium",
+      "description": "[Helium](https://helium.computer/) is a Chromium-based web browser made for people, with love. Privacy-first with unbiased ad-blocking.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/helium/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "7c8a1482ca68725c52fc973bb11957424f7534b13f48503c007c1d54e99309cd",
+      "tags": [
+        "Web-Browser"
+      ]
+    },
+    {
+      "id": "hishtory-server",
+      "name": "Hishtory-server",
+      "description": "[hiSHtory](https://github.com/ddworken/hishtory) is a better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/hishtory-server/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "d626d18efc32400b8fd24532fb6759f65e7f01e5d78b29ee50edf5122dd5d109",
+      "tags": [
+        "Administration"
+      ]
+    },
+    {
+      "id": "homeassistant",
+      "name": "Homeassistant",
+      "description": "[Home Assistant Core](https://www.home-assistant.io/) - Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/homeassistant/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "49de87febb2d34fdc59aa4ae11f073065e9cbf8d09c851144bd36072d98cee87",
+      "tags": [
+        "Home-Automation"
+      ]
+    },
+    {
+      "id": "htpcmanager",
+      "name": "Htpcmanager",
+      "description": "[Htpcmanager](https://github.com/HTPC-Manager/HTPC-Manager) is a front end for many htpc related applications.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/htpcmanager/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "872ee66ee2fc592f000aa62c1e0c86dacd35cd343f28572ddf7972e96abe95a5",
+      "tags": [
+        "Media-Tools"
+      ]
+    },
+    {
+      "id": "inkscape",
+      "name": "Inkscape",
+      "description": "[Inkscape](https://inkscape.org/) is professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/inkscape/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "3acdc4b655c9783f8bd51752a4cad0bf427099d7ada01a67c7c85437d5dca3b1",
+      "tags": [
+        "3D-Modeling"
+      ]
+    },
+    {
+      "id": "intellij-idea",
+      "name": "Intellij-idea",
+      "description": "[IntelliJ IDEA](https://www.jetbrains.com/idea/) helps you write code faster with tools that eliminate tedious tasks and let you focus on what matters \u2013 building great software.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/intellij-idea/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "8870811fb6e1a94e0d09c8064eb75c4f6e2e916f88f03f2d792b28c8738f6809",
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "id": "jackett",
+      "name": "Jackett",
+      "description": "[Jackett](https://github.com/Jackett/Jackett) works as a proxy server: it translates queries from apps (Sonarr, SickRage, CouchPotato, Mylar, etc) into tracker-site-specific http queries, parses the html response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping & translation logic - removing the burden from other apps.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/jackett/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "f491ed242c38945ad1dba8b4a41195037566ecce7d09c4b83e34db9c43a6a949",
+      "tags": [
+        "Indexers"
+      ]
+    },
+    {
+      "id": "jellyfin",
+      "name": "Jellyfin",
+      "description": "[Jellyfin](https://github.com/jellyfin/jellyfin) is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps. Jellyfin is descended from Emby's 3.5.2 release and ported to the .NET Core framework to enable full cross-platform support. There are no strings attached, no premium licenses or features, and no hidden agendas: just a team who want to build something better and work together to achieve it.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/jellyfin/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "a9d0e8414ba19db7c3fd7bc96820face631bb19bd25b5ffa1130dc89eef48cfb",
+      "tags": [
+        "Media-Servers",
+        "Music",
+        "Audiobooks"
+      ]
+    },
+    {
+      "id": "joplin",
+      "name": "Joplin",
+      "description": "[Joplin](https://joplinapp.org/) is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/joplin/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "80c66d3943259a5a6ae090f780f453713aa3cd1f93ce536878bf50ed22ebff92",
+      "tags": [
+        "Content-Management"
+      ]
+    },
+    {
+      "id": "kali-linux",
+      "name": "Kali-linux",
+      "description": "[Kali-linux](https://github.com/linuxserver/docker-kali-linux) - is an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments. KALI LINUX \u2122 is a trademark of OffSec.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/kali-linux/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "76de88688d5add21f5376003c90c25b549854c9649309b184515735f72625dd8",
+      "tags": [
+        "Remote-Desktop",
+        "Security"
+      ]
+    },
+    {
+      "id": "kasm",
+      "name": "Kasm",
+      "description": "[Kasm](https://www.kasmweb.com/?utm_campaign=LinuxServer&utm_source=listing) Workspaces is a docker container streaming platform for delivering browser- based access to desktops, applications, and web services. Kasm uses devops- enabled Containerized Desktop Infrastructure (CDI) to create on-demand, disposable, docker containers that are accessible via web browser. Example use-cases include Remote Browser Isolation (RBI), Data Loss Prevention (DLP), Desktop as a Service (DaaS), Secure Remote Access Services (RAS), and Open Source Intelligence (OSINT) collections. The rendering of the graphical-based containers is powered by the open-source project [KasmVNC](https://www.kasmweb.com/kasmvnc.html?utm_campaign=LinuxServer&utm_source=kasmvnc).",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/kasm/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "c14e86195cb8075a24c08abedeef770df1e88f539c9c4fca0dae1e55f6d743f0",
+      "tags": [
+        "Remote-Desktop",
+        "Business"
+      ]
+    },
+    {
+      "id": "kavita",
+      "name": "Kavita",
+      "description": "[Kavita](https://github.com/Kareadita/Kavita) is a fast, feature rich, cross platform reading server. Built with a focus for being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family!",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/kavita/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "2f26cadeeb7bb4552e85916c056dfd12be4c08f8ca0518903a3e52e08e7df327",
+      "tags": [
+        "Books"
+      ]
+    },
+    {
+      "id": "kdenlive",
+      "name": "Kdenlive",
+      "description": "[Kdenlive](https://kdenlive.org/) is a powerful free and open source cross- platform video editing program made by the KDE community. Feature rich and production ready.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/kdenlive/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "961b4fbdc7fae0cd12262961e5d3462b5c52c336a0065d9565f9f4f7586d22f5",
+      "tags": [
+        "Video-Editor"
+      ]
+    },
+    {
+      "id": "keepassxc",
+      "name": "Keepassxc",
+      "description": "[KeePassXC](https://keepassxc.org/) is a free and open-source password manager. It started as a community fork of KeePassX (itself a cross-platform port of KeePass).",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/keepassxc/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "2921ad23c4d49511b4092e7de29fd9f1f670b9359b216853b0bc9b1bf2f49ed7",
+      "tags": [
+        "Password-Manager"
+      ]
+    },
+    {
+      "id": "kicad",
+      "name": "Kicad",
+      "description": "[KiCad](https://www.kicad.org/) - A Cross Platform and Open Source Electronics Design Automation Suite.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/kicad/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "361c69fb727587bbc1a593bce681841a5e7ba0d89925bd7923e8939f6979a989",
+      "tags": [
+        "3D-Modeling"
+      ]
+    },
+    {
+      "id": "kimai",
+      "name": "Kimai",
+      "description": "[Kimai](https://kimai.org/) is a professional grade time-tracking application, free and open-source. It handles use-cases of freelancers as well as companies with dozens or hundreds of users. Kimai was build to track your project times and ships with many advanced features, including but not limited to: JSON API, invoicing, data exports, multi-timer and punch-in punch-out mode, tagging, multi-user - multi-timezones - multi-language ([over 30 translations existing](https://hosted.weblate.org/projects/kimai/)!), authentication via SAML/LDAP/Database, two-factor authentication (2FA) with TOTP, customizable role and team permissions, responsive design, user/customer/project specific rates, advanced search & filtering, money and time budgets, advanced reporting, support for [plugins](https://www.kimai.org/store/) and so much more.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/kimai/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "1627f8728aae24e6cd380d9a6622aa5d377fd13570779d94e5c6eb37aa13073c",
+      "tags": [
+        "Finance",
+        "Business"
+      ]
+    },
+    {
+      "id": "kometa",
+      "name": "Kometa",
+      "description": "[Kometa](https://github.com/Kometa-Team/Kometa) is a powerful tool designed to give you complete control over your media libraries. With Kometa, you can take your customization to the next level, with granular control over metadata, collections, overlays, and much more.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/kometa/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "05f058a88bf24d2094f5a324c49c71c0b41b6ec44469bcfea387219bcb1a0d9b",
+      "tags": [
+        "Media-Management"
+      ]
+    },
+    {
+      "id": "krita",
+      "name": "Krita",
+      "description": "[Krita](https://krita.org/en/) is a professional FREE and open source painting program. It is made by artists that want to see affordable art tools for everyone.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/krita/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "d07cea7e4501aceaf989b46f94427d14d183e66784007a07b1f48d2527eecb7e",
+      "tags": [
+        "Image-Editor"
+      ]
+    },
+    {
+      "id": "lazylibrarian",
+      "name": "Lazylibrarian",
+      "description": "[Lazylibrarian](https://lazylibrarian.gitlab.io/) is a program to follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads Librarything and optionally GoogleBooks as sources for author info and book info. This container is based on the DobyTang fork.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/lazylibrarian/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "bb08cb5621bf5bab30a7e2f093c12c7528d9864aeab41477c4b78d9ee996e412",
+      "tags": [
+        "Books"
+      ]
+    },
+    {
+      "id": "ldap-auth",
+      "name": "Ldap-auth",
+      "description": "[Ldap-auth](https://github.com/nginxinc/nginx-ldap-auth) software is for authenticating users who request protected resources from servers proxied by nginx. It includes a daemon (ldap-auth) that communicates with an authentication server, and a webserver daemon that generates an authentication cookie based on the user\u2019s credentials. The daemons are written in Python for use with a Lightweight Directory Access Protocol (LDAP) authentication server (OpenLDAP or Microsoft Windows Active Directory 2003 and 2012).",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/ldap-auth/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "8eecb16d92bdca86060aa42f31d2f57e46d001f80a84b32ce9dd0987d9f7954d",
+      "tags": [
+        "Administration",
+        "Security"
+      ]
+    },
+    {
+      "id": "libreoffice",
+      "name": "Libreoffice",
+      "description": "[LibreOffice](https://www.libreoffice.org/) is a free and powerful office suite, and a successor to OpenOffice.org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/libreoffice/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "9b345a7b1e44c42a1632e9b7afd4a01403b6a1d177eac6fc8189934a0ebee3f2",
+      "tags": [
+        "Documents"
+      ]
+    },
+    {
+      "id": "librespeed",
+      "name": "Librespeed",
+      "description": "[Librespeed](https://github.com/librespeed/speedtest) is a very lightweight Speedtest implemented in Javascript, using XMLHttpRequest and Web Workers. No Flash, No Java, No Websocket, No Bullshit.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/librespeed/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "328b9187416f130d638d3ab77102ee2da47f3605b7e05f392d0d87502d1f7b78",
+      "tags": [
+        "Monitoring"
+      ]
+    },
+    {
+      "id": "librewolf",
+      "name": "Librewolf",
+      "description": "[LibreWolf](https://librewolf.net/) is a custom and independent version of Firefox, with the primary goals of privacy, security and user freedom. LibreWolf also aims to remove all the telemetry, data collection and annoyances, as well as disabling anti-freedom features like DRM.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/librewolf/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "48c06c4d4c2ec8a63d5328998b3dd1cc46a6269b85720f7c81d6bb0f1ff9b44c",
+      "tags": [
+        "Web-Browser"
+      ]
+    },
+    {
+      "id": "lidarr",
+      "name": "Lidarr",
+      "description": "[Lidarr](https://github.com/lidarr/Lidarr) is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/lidarr/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "51adfa59c47a85617912fc27a8d2a99b71efcb029784a008a2e3124f2aadc6a0",
+      "tags": [
+        "Media-Management",
+        "Music"
+      ]
+    },
+    {
+      "id": "limnoria",
+      "name": "Limnoria",
+      "description": "[Limnoria](https://github.com/ProgVal/limnoria) A robust, full-featured, and user/programmer-friendly Python IRC bot, with many existing plugins. Successor of the well-known Supybot.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/limnoria/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "fe65829642f22925c56bedce3696fc02c3f5724577667e6ab8191c60b02915ce",
+      "tags": [
+        "IRC"
+      ]
+    },
+    {
+      "id": "lm-studio",
+      "name": "Lm-studio",
+      "description": "[LM Studio](https://lmstudio.ai/) can run local AI models like gpt-oss, Llama, Gemma, Qwen, and DeepSeek privately on your computer.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/lm-studio/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "4ca768bb1f3999eafc7537748688a94911d5977ad1b2aec0821809ea34bf0bbb",
+      "tags": [
+        "Remote-Desktop",
+        "AI"
+      ]
+    },
+    {
+      "id": "lollypop",
+      "name": "Lollypop",
+      "description": "[Lollypop](https://wiki.gnome.org/Apps/Lollypop) is a lightweight modern music player designed to work excellently on the GNOME desktop environment.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/lollypop/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "521efc63c88f7b3679811a04f9b1d81c523cc0f669734265ae927a1f0fee8528",
+      "tags": [
+        "Music"
+      ]
+    },
+    {
+      "id": "luanti",
+      "name": "Luanti",
+      "description": "[Luanti](https://www.luanti.org/) (formerly Minetest) is an open source voxel game-creation platform with easy modding and game creation",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/luanti/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "13d05ab601839dad278e0d835c61aebeb9c2cf446cc7a7f52ca58d149f85dbc4",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "lychee",
+      "name": "Lychee",
+      "description": "[Lychee](https://lycheeorg.github.io/) is a free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/lychee/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "45373442269b758845f325271e1b8dcbc80aa6e2360c6d72e9938e13f5a61178",
+      "tags": [
+        "Photos"
+      ]
+    },
+    {
+      "id": "mame",
+      "name": "Mame",
+      "description": "[MAME](https://www.mamedev.org/) is a free and open-source emulator designed to emulate the hardware of arcade games, video game consoles, old computers and other systems in software on modern personal computers.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/mame/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "499a15dcc756bc36d08f70304922e21f68ff7d4f452e387fc4d74990454843e2",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "manyfold",
+      "name": "Manyfold",
+      "description": "[Manyfold](https://github.com/manyfold3d/manyfold/) is an open source, self- hosted web application for managing a collection of 3D models, particularly focused on 3D printing.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/manyfold/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "d204107d79dd76b5911b2918dac839195b4f9dcf8bcd0ce134d4bce591b972c5",
+      "tags": [
+        "3D-Printing"
+      ]
+    },
+    {
+      "id": "mariadb",
+      "name": "Mariadb",
+      "description": "[Mariadb](https://mariadb.org/) is one of the most popular database servers. Made by the original developers of MySQL.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/mariadb/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "6264c61a3f6ec583b63cde8f2557a2e73da6d5c46ba4a46d747a6b9cd6a9604d",
+      "tags": [
+        "Databases"
+      ]
+    },
+    {
+      "id": "mastodon",
+      "name": "Mastodon",
+      "description": "[Mastodon](https://github.com/mastodon/mastodon/) is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones..",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/mastodon/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "0be25bed7578843c0e8c5e4de290533199bf86e1e7a6aad907ad5423f8c44ea9",
+      "tags": [
+        "Social"
+      ]
+    },
+    {
+      "id": "mediaelch",
+      "name": "Mediaelch",
+      "description": "[MediaElch](https://github.com/Komet/MediaElch) is a MediaManager for Kodi. Information about Movies, TV Shows, Concerts and Music are stored as nfo files. Fanarts are downloaded automatically from fanart.tv. Using the nfo generator, MediaElch can be used with other MediaCenters as well.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/mediaelch/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "584c7bbbeaa54ecb765b9ac45d3a40e4c9cdea68f1cefe4a19c0fe174ebed2a7",
+      "tags": [
+        "Media-Management"
+      ]
+    },
+    {
+      "id": "medusa",
+      "name": "Medusa",
+      "description": "[Medusa](https://pymedusa.com/) is an automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/medusa/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "d3b075751cc13bdae9f4546f82a5c3309d96499352f63ed8856c6d7d5009958a",
+      "tags": [
+        "Media-Management"
+      ]
+    },
+    {
+      "id": "melonds",
+      "name": "Melonds",
+      "description": "[melonDS](https://melonds.kuribo64.net/) aims at providing fast and accurate Nintendo DS emulation.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/melonds/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "dae62011b3179b030c85c94907748541015b6b0c5023a17ef6796f023fbfcedb",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "minisatip",
+      "name": "Minisatip",
+      "description": "[Minisatip](https://github.com/catalinii/minisatip) is a multi-threaded satip server version 1.2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/minisatip/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "3a4e4c3d899ee398a17e77d2cf6738c93ba17ba80febc3247ff341a8037c50df",
+      "tags": [
+        "Media-Tools"
+      ]
+    },
+    {
+      "id": "modmanager",
+      "name": "Modmanager",
+      "description": "This container needs special attention. Please check https://hub.docker.com/r/linuxserver/modmanager for details.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/modmanager/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "eab3dabb708c772f5fddd47de85e5107d73690f82150ddeffbd47e9f14543fd3",
+      "tags": [
+        "Docker"
+      ]
+    },
+    {
+      "id": "modrinth",
+      "name": "Modrinth",
+      "description": "[Modrinth App](https://modrinth.com/) is a unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/modrinth/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "eaa4361583fd9b06a87a81e927b75976debe34773ece49cdee4ee88f05cdfcd6",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "msedge",
+      "name": "Msedge",
+      "description": "[Microsoft Edge](https://www.microsoft.com/edge) is a cross-platform web browser developed by Microsoft and based on Chromium.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/msedge/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "446642a823b97b1c3a3da366b2f6bb6f028acc08a7e0c263612a60368b12b9c3",
+      "tags": [
+        "Web-Browser"
+      ]
+    },
+    {
+      "id": "mstream",
+      "name": "Mstream",
+      "description": "[Mstream](https://mstream.io/) is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere. There are mobile apps available for both Android and iPhone.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/mstream/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "8ed8ffd463a395a8756f712efd2c6f81be805430f873f9357de04481962b37cd",
+      "tags": [
+        "Media-Servers",
+        "Music"
+      ]
+    },
+    {
+      "id": "mullvad-browser",
+      "name": "Mullvad-browser",
+      "description": "The [Mullvad Browser](https://mullvad.net/en/browser) is a privacy-focused web browser developed in a collaboration between Mullvad VPN and the Tor Project. It\u2019s designed to minimize tracking and fingerprinting. You could say it\u2019s a Tor Browser to use without the Tor Network. Instead, you can use it with a trustworthy VPN.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/mullvad-browser/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "1267af4f8738e4220bb59363d30dbdf2894240180762a3c0c2226700aacca577",
+      "tags": [
+        "Web-Browser",
+        "VPN"
+      ]
+    },
+    {
+      "id": "mylar3",
+      "name": "Mylar3",
+      "description": "[Mylar3](https://github.com/MylarComics/mylar3) is an automated Comic Book downloader (cbr/cbz) for use with NZB and torrents written in python. It supports SABnzbd, NZBGET, and many torrent clients in addition to DDL.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/mylar3/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "02b50deb1dcb8589c5f06b81eaac0591933c45eb1bc15fef2974bde1825e41db",
+      "tags": [
+        "Books",
+        "Media-Management"
+      ]
+    },
+    {
+      "id": "mysql-workbench",
+      "name": "Mysql-workbench",
+      "description": "[MySQL Workbench](https://www.mysql.com/products/workbench/) is a unified visual tool for database architects, developers, and DBAs. MySQL Workbench provides data modeling, SQL development, and comprehensive administration tools for server configuration, user administration, backup, and much more.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/mysql-workbench/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "42445547230a12d482147c3957517a2c62e4dbd22151b50a0ff106f13a4d0b8b",
+      "tags": [
+        "Databases"
+      ]
+    },
+    {
+      "id": "netbox",
+      "name": "Netbox",
+      "description": "[Netbox](https://github.com/netbox-community/netbox) is an IP address management (IPAM) and data center infrastructure management (DCIM) tool. Initially conceived by the network engineering team at DigitalOcean, NetBox was developed specifically to address the needs of network and infrastructure engineers. It is intended to function as a domain-specific source of truth for network operations.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/netbox/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "360f251de7fda6fc7beaffb670228d104a029ac2e94e5d6578924d205d759e84",
+      "tags": [
+        "Administration",
+        "Business"
+      ]
+    },
+    {
+      "id": "nextcloud",
+      "name": "Nextcloud",
+      "description": "[Nextcloud](https://nextcloud.com/) gives you access to all your files wherever you are. Where are your photos and documents? With Nextcloud you pick a server of your choice, at home, in a data center or at a provider. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices. Through Nextcloud you also access, sync and share your existing data on that FTP drive at the office, a Dropbox or a NAS you have at home.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/nextcloud/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "c43ac7ea3750e55c915787743794dc3b1bfce9074a1fc813141b9564daed08e1",
+      "tags": [
+        "Cloud",
+        "Documents"
+      ]
+    },
+    {
+      "id": "nginx",
+      "name": "Nginx",
+      "description": "[Nginx](https://nginx.org/) is an HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/nginx/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "7d72926fd0b0d2f7b35d67616e9747e2eda39559c054a8967eef67c411385b85",
+      "tags": [
+        "Reverse-Proxy"
+      ]
+    },
+    {
+      "id": "ngircd",
+      "name": "Ngircd",
+      "description": "[Ngircd](https://ngircd.barton.de/) is a free, portable and lightweight Internet Relay Chat server for small or private networks, developed under the GNU General Public License (GPL). It is easy to configure, can cope with dynamic IP addresses, and supports IPv6, SSL-protected connections as well as PAM for authentication. It is written from scratch and not based on the original IRCd.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/ngircd/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "800f6747f841c8d598f58d185ee88f16321a74a052c9716ee642a175258a0eb2",
+      "tags": [
+        "IRC"
+      ]
+    },
+    {
+      "id": "nzbget",
+      "name": "Nzbget",
+      "description": "[Nzbget](http://nzbget.com/) is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/nzbget/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "81c906fba8f8c96941e62a1b39fb9a362c65ef32a2d05f4148efd71fa6edd0de",
+      "tags": [
+        "Downloaders"
+      ]
+    },
+    {
+      "id": "nzbhydra2",
+      "name": "Nzbhydra2",
+      "description": "[Nzbhydra2](https://github.com/theotherp/nzbhydra2) is a meta search application for NZB indexers, the spiritual successor to NZBmegasearcH, and an evolution of the original application [NZBHydra](https://github.com/theotherp/nzbhydra). It provides easy access to a number of raw and newznab based indexers.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/nzbhydra2/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "e8579acbbb89c9f28e0339f953b84a52235265c9aeb632f724d512d62d2ac481",
+      "tags": [
+        "Indexers"
+      ]
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "description": "[Obsidian](https://obsidian.md) is a note-taking app that lets you create, link, and organize your notes on your device, with hundreds of plugins and themes to customize your workflow. You can also publish your notes online, access them offline, and sync them securely with end-to-end encryption.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/obsidian/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "6653ca5a4c8d5bc2688a88435414de320bbf0e6d48f99537ebb87eae8a3d6e93",
+      "tags": [
+        "Content-Management"
+      ]
+    },
+    {
+      "id": "ombi",
+      "name": "Ombi",
+      "description": "[Ombi](https://ombi.io) allows you to host your own Plex Request and user management system. If you are sharing your Plex server with other users, allow them to request new content using an easy to manage interface! Manage all your requests for Movies and TV with ease, leave notes for the user and get notification when a user requests something. Allow your users to post issues against their requests so you know there is a problem with the audio etc. Even automatically send them weekly newsletters of new content that has been added to your Plex server!",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/ombi/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "7301c923eb1f133bd8516baeceef2e9a16aa71386cc25a72226f6485306b6d6a",
+      "tags": [
+        "Media-Requesters"
+      ]
+    },
+    {
+      "id": "onlyoffice",
+      "name": "Onlyoffice",
+      "description": "[ONLYOFFICE](https://www.onlyoffice.com/) provides a full range of tools to create, edit and collaborate on text documents, spreadsheets, presentations, PDF forms and regular PDF files on web, desktop and mobile platforms.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/onlyoffice/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "8d3335d5863d25f8d32086d527873cbfe13861cf15a56cd77b51902e3546802a",
+      "tags": [
+        "Documents"
+      ]
+    },
+    {
+      "id": "openshot",
+      "name": "Openshot",
+      "description": "[OpenShot](https://openshot.org/) Video Editor is an award-winning free and open-source video editor for Linux, Mac, and Windows, and is dedicated to delivering high quality video editing and animation solutions to the world.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/openshot/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "eeb49d327be296aadc4dca9c706bce2ef40de8b9dde2f67482cefbf1da32d1c1",
+      "tags": [
+        "Video-Editor"
+      ]
+    },
+    {
+      "id": "openssh-server",
+      "name": "Openssh-server",
+      "description": "[Openssh-server](https://www.openssh.com/) is a sandboxed environment that allows ssh access without giving keys to the entire server. Giving ssh access via private key often means giving full access to the server. This container creates a limited and sandboxed environment that others can ssh into. The users only have access to the folders mapped and the processes running inside this container.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/openssh-server/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "b831fc4a62751c4e2ec647bb658e80cc3370bf6f5f4b301f4be1f288b3c086de",
+      "tags": [
+        "Administration"
+      ]
+    },
+    {
+      "id": "opera",
+      "name": "Opera",
+      "description": "[Opera](https://www.opera.com/) is a multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers (Chrome, Edge, etc.) through its user interface and other features.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/opera/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "3a10655a97f61900e252d19c35fbcc8d667757bdee552d3c60fc7898b764649e",
+      "tags": [
+        "Web-Browser"
+      ]
+    },
+    {
+      "id": "orcaslicer",
+      "name": "Orcaslicer",
+      "description": "[Orca Slicer](https://github.com/SoftFever/OrcaSlicer) is an open source slicer for FDM printers. OrcaSlicer is fork of Bambu Studio, it was previously known as BambuStudio-SoftFever, Bambu Studio is forked from PrusaSlicer by Prusa Research, which is from Slic3r by Alessandro Ranellucci and the RepRap community",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/orcaslicer/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "ad88fd90db9f71c13c8f2f149dabc054faf7061c6ee20c5171ff7241fdb58f19",
+      "tags": [
+        "3D-Printing"
+      ]
+    },
+    {
+      "id": "oscam",
+      "name": "Oscam",
+      "description": "[Oscam](https://git.streamboard.tv/common/oscam) is an Open Source Conditional Access Module software used for descrambling DVB transmissions using smart cards. It's both a server and a client.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/oscam/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "535fa76c81e2678cf5976f68465fc570c28ed2d78c1808391c5e06091c7b4659",
+      "tags": [
+        "Media-Tools"
+      ]
+    },
+    {
+      "id": "pairdrop",
+      "name": "Pairdrop",
+      "description": "[PairDrop](https://github.com/schlagmichdoch/PairDrop) is a sublime alternative to AirDrop that works on all platforms. Send images, documents or text via peer to peer connection to devices in the same local network/Wi-Fi or to paired devices.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/pairdrop/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "c558a5f48d40053d819e974a94a205c7af14a9c3cf54adbd903d92dd491025a7",
+      "tags": [
+        "File-Sharing"
+      ]
+    },
+    {
+      "id": "pcsx2",
+      "name": "Pcsx2",
+      "description": "[PCSX2](https://pcsx2.net/) is an open source PS2 Emulator.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/pcsx2/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "1e8f7ffc27374300ad9e1deff80a5c897f015ba6041a65a59c99556a24f032d0",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "pelorus",
+      "name": "Pelorus",
+      "description": "[Pelorus](https://github.com/linuxserver/pelorus) is an AI navigator for Selkies-powered Linux desktops. Pelorus runs a FastAPI server that gives an LLM agent (Ollama, OpenAI-compatible, or Gemini) control over mouse, keyboard, screenshot, and window management via the [Pixelflux computer-use backend](https://github.com/linuxserver/pixelflux#computer-use-interface- wayland), a Linux accessibility tree (AT-SPI), and optional KWin D-Bus integration.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/pelorus/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "1da076ebfd1054b03366fabcf4309760d391a91ce4be6490781faa8d8a29b370",
+      "tags": [
+        "Remote-Desktop",
+        "AI"
+      ]
+    },
+    {
+      "id": "phpmyadmin",
+      "name": "Phpmyadmin",
+      "description": "[Phpmyadmin](https://github.com/phpmyadmin/phpmyadmin/) is a free software tool written in PHP, intended to handle the administration of MySQL over the Web. phpMyAdmin supports a wide range of operations on MySQL and MariaDB.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/phpmyadmin/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "313abdff707410a1e111bd984816f46f373b222183b379445622a8fa482f63a6",
+      "tags": [
+        "Databases"
+      ]
+    },
+    {
+      "id": "pidgin",
+      "name": "Pidgin",
+      "description": "[Pidgin](https://pidgin.im/) is a chat program which lets you log into accounts on multiple chat networks simultaneously. This means that you can be chatting with friends on XMPP and sitting in an IRC channel at the same time.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/pidgin/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "99b59eef37bda6dcc8b3b84e8a578bb6db98ab16fc54856571f27cdde5df58cc",
+      "tags": [
+        "IRC",
+        "Chat"
+      ]
+    },
+    {
+      "id": "piper",
+      "name": "Piper",
+      "description": "[Piper](https://github.com/rhasspy/wyoming-piper) is a fast, local neural text to speech system that sounds great and is optimized for the Raspberry Pi 4. This container provides a Wyoming protocol server for Piper.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/piper/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "19af2fc514a04ab241e6891d65c65dec284817dee431f0960193d3b82fe560d2",
+      "tags": [
+        "Machine-Learning"
+      ]
+    },
+    {
+      "id": "piwigo",
+      "name": "Piwigo",
+      "description": "[Piwigo](http://piwigo.org/) is a photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/piwigo/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "648272b57c2d19ab0e0ab723cd4b1e7ef3df041c6474c7f99d56c008ea80513e",
+      "tags": [
+        "Photos"
+      ]
+    },
+    {
+      "id": "planka",
+      "name": "Planka",
+      "description": "[Planka](https://github.com/plankanban/planka/) is an elegant open source project tracking tool.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/planka/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "163a59e4f55235732aee2455d98b895851ff3a5b47934ce864633c9c6782bf04",
+      "tags": [
+        "Content-Management",
+        "Business"
+      ]
+    },
+    {
+      "id": "plex",
+      "name": "Plex",
+      "description": "[Plex](https://plex.tv) organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone Plex Media Server. Straightforward design and bulk actions mean getting things done faster.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/plex/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "69f24424edaceff15032fe532d8677251a81e8b063555a54a6101374f8db19b3",
+      "tags": [
+        "Media-Servers",
+        "Music",
+        "Audiobooks"
+      ]
+    },
+    {
+      "id": "ppsspp",
+      "name": "Ppsspp",
+      "description": "[PPSSPP](https://www.ppsspp.org/) is a free and open-source PSP emulator for Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series and Symbian with a focus on speed and portability.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/ppsspp/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "35c42170ae4a87df640ba1b28040a6d360ba685b7042ba1be7a406ee46c19c21",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "projectsend",
+      "name": "Projectsend",
+      "description": "[Projectsend](http://www.projectsend.org) is a self-hosted application that lets you upload files and assign them to specific clients that you create yourself. Secure, private and easy. No more depending on external services or e-mail to send those files.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/projectsend/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "2d2e626a29697b69d01861c50f0ecbe631b3b0a7d497bc926cfcf5103685f251",
+      "tags": [
+        "File-Sharing"
+      ]
+    },
+    {
+      "id": "prowlarr",
+      "name": "Prowlarr",
+      "description": "[Prowlarr](https://github.com/Prowlarr/Prowlarr) is a indexer manager/proxy built on the popular arr .net/reactjs base stack to integrate with your various PVR apps. Prowlarr supports both Torrent Trackers and Usenet Indexers. It integrates seamlessly with Sonarr, Radarr, Lidarr, and Readarr offering complete management of your indexers with no per app Indexer setup required (we do it all).",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/prowlarr/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "41a8509af69083f2a9c6221fee772a48507165ba7deef0cb5dcf8c34ffb1efb0",
+      "tags": [
+        "Indexers"
+      ]
+    },
+    {
+      "id": "pwndrop",
+      "name": "Pwndrop",
+      "description": "[Pwndrop](https://github.com/kgretzky/pwndrop) is a self-deployable file hosting service for sending out red teaming payloads or securely sharing your private files over HTTP and WebDAV.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/pwndrop/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "fc58424e96a04d5d3b6c86327f4bfd6f5ca8593dbc1ed0a6736d1c0b482b934b",
+      "tags": [
+        "File-Sharing",
+        "Security"
+      ]
+    },
+    {
+      "id": "pycharm",
+      "name": "Pycharm",
+      "description": "[PyCharm](https://www.jetbrains.com/pycharm/) offers out-of-the-box support for Python, databases, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI, and more.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/pycharm/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "578a40297ba4a7c9df2da8c0fb633439dfbd4fffe0094d9cf51e15e6da3960c1",
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "id": "pydio-cells",
+      "name": "Pydio-cells",
+      "description": "[Pydio-cells](https://pydio.com/) is the nextgen file sharing platform for organizations. It is a full rewrite of the Pydio project using the Go language following a micro-service architecture.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/pydio-cells/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "be001c0b6b42809a386ffc481f6ededf543cdb442874ca7b8bb1c627f3d7cc14",
+      "tags": [
+        "File-Sharing"
+      ]
+    },
+    {
+      "id": "pyload-ng",
+      "name": "Pyload-ng",
+      "description": "[pyLoad](https://pyload.net/) is a Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/pyload-ng/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "94886d9884782eb299a8010c040ad1fdc3ca7e9ae5710baec0ff84a588abb453",
+      "tags": [
+        "Downloaders"
+      ]
+    },
+    {
+      "id": "qbittorrent",
+      "name": "Qbittorrent",
+      "description": "The [Qbittorrent](https://www.qbittorrent.org/) is a bittorrent client programmed in C++ / Qt that uses libtorrent (sometimes called libtorrent- rasterbar) by Arvid Norberg.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/qbittorrent/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "3f33f1c9236162e7a2eafb4179fa251690b52bc920383d42686dfeada7f00396",
+      "tags": [
+        "Downloaders"
+      ]
+    },
+    {
+      "id": "qdirstat",
+      "name": "Qdirstat",
+      "description": "[QDirStat](https://github.com/shundhammer/qdirstat) Qt-based directory statistics: KDirStat without any KDE -- from the author of the original KDirStat.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/qdirstat/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "2cdfec83914cfaf369bde7097bf462bf4e46babe307f4ede97886307347fa6a0",
+      "tags": [
+        "Storage"
+      ]
+    },
+    {
+      "id": "qemu-static",
+      "name": "Qemu-static",
+      "description": "This container needs special attention. Please check https://hub.docker.com/r/linuxserver/qemu-static for details.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/qemu-static/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "ab5a7f58835bb9dad99cea59b2ab9ea025de9576bc805faec7b323777fcccd84",
+      "tags": [
+        "Docker"
+      ]
+    },
+    {
+      "id": "radarr",
+      "name": "Radarr",
+      "description": "[Radarr](https://github.com/Radarr/Radarr) - A fork of Sonarr to work with movies \u00e0 la Couchpotato.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/radarr/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "0a4627342caa736b74ff076e76fe974bd250643c970756eece546a15528cf6a4",
+      "tags": [
+        "Media-Management"
+      ]
+    },
+    {
+      "id": "raneto",
+      "name": "Raneto",
+      "description": "[Raneto](http://raneto.com/) - is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/raneto/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "5eb952ddd4dc2e9f5d5d5aeea2391a48f0920ce1cd60665dff21c6bcbcad07ee",
+      "tags": [
+        "Content-Management"
+      ]
+    },
+    {
+      "id": "rawtherapee",
+      "name": "Rawtherapee",
+      "description": "[RawTherapee](https://rawtherapee.com/) is a free, cross-platform raw image processing program!",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/rawtherapee/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "1ff053eb94972caf3f5bacd3a106fd9a973f91a5746a563bd659996d271a731d",
+      "tags": [
+        "Image-Editor"
+      ]
+    },
+    {
+      "id": "remmina",
+      "name": "Remmina",
+      "description": "[Remmina](https://remmina.org/) is a remote desktop client written in GTK, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large or tiny screens. Remmina supports multiple network protocols, in an integrated and consistent user interface. Currently RDP, VNC, SPICE, SSH and EXEC are supported.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/remmina/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "cf2b9d8ca4ec18da6c0adb493371700e6a0e241df35338fbfe4ea574d2bae6df",
+      "tags": [
+        "Remote-Desktop"
+      ]
+    },
+    {
+      "id": "resilio-sync",
+      "name": "Resilio-sync",
+      "description": "[Resilio-sync](https://www.resilio.com/individuals/) (formerly BitTorrent Sync) uses the BitTorrent protocol to sync files and folders between all of your devices. There are both free and paid versions, this container supports both. There is an official sync image but we created this one as it supports user mapping to simplify permissions for volumes.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/resilio-sync/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "cc573aabf5b5ae5e64200bb47a95f662c3828b18961f58e026159bb5e95c9702",
+      "tags": [
+        "Backup"
+      ]
+    },
+    {
+      "id": "retroarch",
+      "name": "Retroarch",
+      "description": "[RetroArch](https://retroarch.com/) is a frontend for emulators, game engines and media players. It enables you to run classic games on a wide range of computers and consoles through its slick graphical interface.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/retroarch/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "4a50a22de0572bf1f68db376c5c2504289ece76c9ff8aac921ff535ad497652c",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "rpcs3",
+      "name": "Rpcs3",
+      "description": "[RPCS3](https://rpcs3.net/) is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/rpcs3/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "e7be5ed4706c41e479fbe0a6fdaaae9434a02a8477a303def3e2b32693a1694b",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "rsnapshot",
+      "name": "Rsnapshot",
+      "description": "[Rsnapshot](http://www.rsnapshot.org/) is a filesystem snapshot utility based on rsync. rsnapshot makes it easy to make periodic snapshots of local machines, and remote machines over ssh. The code makes extensive use of hard links whenever possible, to greatly reduce the disk space required.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/rsnapshot/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "06e3de9b208eec7ee85ba6c45ad70e42dc419ab5b350ba68cf9297c63b228f88",
+      "tags": [
+        "Backup"
+      ]
+    },
+    {
+      "id": "rustdesk",
+      "name": "Rustdesk",
+      "description": "[RustDesk](https://rustdesk.com/) is a full-featured open source remote control alternative for self-hosting and security with minimal configuration.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/rustdesk/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "bd37e5f53ead9ebb1bc698dabfa1f7b505dc390b6b8704677038a2ce717cc371",
+      "tags": [
+        "Remote-Desktop"
+      ]
+    },
+    {
+      "id": "sabnzbd",
+      "name": "Sabnzbd",
+      "description": "[Sabnzbd](http://sabnzbd.org/) makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/sabnzbd/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "4b49e18f672dd726bb29e56abd0b35069633084f39c478fbb7f5307f05a5003e",
+      "tags": [
+        "Downloaders"
+      ]
+    },
+    {
+      "id": "scummvm",
+      "name": "Scummvm",
+      "description": "[ScummVM](https://www.scummvm.org/) is a program which allows you to run certain classic graphical adventure and role-playing games, provided you already have their data files. The clever part about this: ScummVM just replaces the executables shipped with the games, allowing you to play them on systems for which they were never designed! ScummVM is a complete rewrite of these games' executables and is not an emulator.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/scummvm/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "0a55427b8655f768e0adce1150c2512dea6f5cfa58cce94e6d4315c676f79b21",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "sealskin",
+      "name": "Sealskin",
+      "description": "[Sealskin](https://github.com/selkies-project/sealskin/) is a self-hosted, client-server platform that enables users to run powerful, containerized desktop applications streamed directly to a web browser. It uses a browser extension to intercept user actions\u2014such as clicking a link or downloading a file and redirects them to a secure, isolated application environment running on a remote server.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/sealskin/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "9f3c1aa4d93c547d12556d97ac56598a9cefa2f93c5e23984f86af1a72c33cee",
+      "tags": [
+        "Remote-Desktop",
+        "Business"
+      ]
+    },
+    {
+      "id": "shadps4",
+      "name": "Shadps4",
+      "description": "[shadPS4](https://shadps4.net/) is an early PlayStation 4 emulator for Windows, Linux and macOS written in C++.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/shadps4/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "3e63f8dd381d602c0bc7ea5455c8da9931e5bb430c330509b75db15ba5a1ec94",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "shotcut",
+      "name": "Shotcut",
+      "description": "[Shotcut](https://www.shotcut.org/) is a free, open source, cross-platform video editor.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/shotcut/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "a5317d227161d099fbc41e94892263c15545362dd282fa2e5df70755fa9e553c",
+      "tags": [
+        "Video-Editor"
+      ]
+    },
+    {
+      "id": "sickgear",
+      "name": "Sickgear",
+      "description": "[SickGear](https://github.com/sickgear/sickgear) provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more.. For more information on SickGear visit their website and check it out: https://github.com/SickGear/SickGear",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/sickgear/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "22f4269366b0bb6db697837f419f5e0d18edbeb3ed62c6b8be99866b61d1cdcd",
+      "tags": [
+        "Media-Management"
+      ]
+    },
+    {
+      "id": "signal",
+      "name": "Signal",
+      "description": "[Signal](https://signal.org/) is a messaging app with privacy at its core. It is free and easy to use, with strong end-to-end encryption that keeps your communication completely private.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/signal/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "eda3569776fe29d63571c0943a7d23a4d5551ed68e753437d234f383b741653d",
+      "tags": [
+        "Chat"
+      ]
+    },
+    {
+      "id": "smokeping",
+      "name": "Smokeping",
+      "description": "[Smokeping](https://oss.oetiker.ch/smokeping/) keeps track of your network latency. For a full example of what this application is capable of visit [UCDavis](http://smokeping.ucdavis.edu/cgi-bin/smokeping.fcgi).",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/smokeping/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "628b81002c4923fa86293e3a1791cc0ca872d7155d1579275fbef2b1be85691d",
+      "tags": [
+        "Monitoring"
+      ]
+    },
+    {
+      "id": "socket-proxy",
+      "name": "Socket-proxy",
+      "description": "This container needs special attention. Please check https://hub.docker.com/r/linuxserver/socket-proxy for details.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/socket-proxy/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "35806d417d5170adf2143a34969fbf41433c3d1fe95040fbc8ac8adbe070133f",
+      "tags": [
+        "Docker"
+      ]
+    },
+    {
+      "id": "sonarr",
+      "name": "Sonarr",
+      "description": "[Sonarr](https://sonarr.tv/) (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/sonarr/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "1d86554cd505d9252b35d5cf477afb97cb48082a81172bbef74684f9f67a94fd",
+      "tags": [
+        "Media-Management"
+      ]
+    },
+    {
+      "id": "speedtest-tracker",
+      "name": "Speedtest-tracker",
+      "description": "[Speedtest-tracker](https://github.com/alexjustesen/speedtest-tracker) is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/speedtest-tracker/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "5a207e76f15e81bea43cd6fde9f2e5fb83ecd8a4606a1b9b047a06bdef1ae70f",
+      "tags": [
+        "Monitoring"
+      ]
+    },
+    {
+      "id": "spotube",
+      "name": "Spotube",
+      "description": "[Spotube](https://spotube.krtirtho.dev/) is an open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data API and YouTube, Piped.video or JioSaavn as an audio source, eliminating the need for Spotify Premium",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/spotube/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "60c10267bc11322a997c93eec75a6e659d1eb8d880354f803b9a3fefb7469b5d",
+      "tags": [
+        "Music"
+      ]
+    },
+    {
+      "id": "sqlitebrowser",
+      "name": "Sqlitebrowser",
+      "description": "[DB Browser for SQLite](https://sqlitebrowser.org/) is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/sqlitebrowser/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "c281de38f30f0094c7f9ef65cfa5c88d290ebbb5914de557240dabb6ef6f178c",
+      "tags": [
+        "Databases"
+      ]
+    },
+    {
+      "id": "steam",
+      "name": "Steam",
+      "description": "[Steam](https://store.steampowered.com/) is the ultimate destination for playing, discussing, and creating games.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/steam/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "548d6b22161965d9ca037721d485f3d25dec8551105df5757f13e9371df7a856",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "swag",
+      "name": "Swag",
+      "description": "SWAG - Secure Web Application Gateway (formerly known as letsencrypt, no relation to Let's Encrypt\u2122) sets up an Nginx webserver and reverse proxy with php support and a built-in certbot client that automates free SSL server certificate generation and renewal processes (Let's Encrypt and ZeroSSL). It also contains fail2ban for intrusion prevention.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/swag/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "4a45546b7617c95fc259ba7127ecdba7dfb1b82fa7043eb1b446f830289d21de",
+      "tags": [
+        "Reverse-Proxy"
+      ]
+    },
+    {
+      "id": "synclounge",
+      "name": "Synclounge",
+      "description": "[Synclounge](https://github.com/samcm/synclounge) is a third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/synclounge/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "00d7ff48e2ab05aac6904e4c77e9f1e466a93c40513e77c55887884d27119dda",
+      "tags": [
+        "Media-Tools"
+      ]
+    },
+    {
+      "id": "syncthing",
+      "name": "Syncthing",
+      "description": "[Syncthing](https://syncthing.net) replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/syncthing/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "0b43146286c1d1bd467aa2217fff96eaa55aef8a4ad5bbd286f38f2133241beb",
+      "tags": [
+        "Backup"
+      ]
+    },
+    {
+      "id": "syslog-ng",
+      "name": "Syslog-ng",
+      "description": "[syslog-ng](https://www.syslog-ng.com/products/open-source-log-management/) allows you to flexibly collect, parse, classify, rewrite and correlate logs from across your infrastructure and store or route them to log analysis tools.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/syslog-ng/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "b8afceb694d51fd9d4481e84cbe82e2878f4f322443fb7a55e2960e5d42fb2f8",
+      "tags": [
+        "Monitoring"
+      ]
+    },
+    {
+      "id": "tautulli",
+      "name": "Tautulli",
+      "description": "[Tautulli](http://tautulli.com) is a python based web application for monitoring, analytics and notifications for Plex Media Server.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/tautulli/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "115eb56935a8bca1b9bb32b2aed14ac8507b9c5a3eda683ebd51e8bfafd39fe4",
+      "tags": [
+        "Media-Tools"
+      ]
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "description": "[Telegram](https://telegram.org/) is a cloud-based mobile and desktop messaging app.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/telegram/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "0cd5324d97cf4dba5c4f7f306b2a2852e954ae73b4f9aa123f891a8669919127",
+      "tags": [
+        "Chat"
+      ]
+    },
+    {
+      "id": "thelounge",
+      "name": "Thelounge",
+      "description": "[Thelounge](https://thelounge.github.io/) (a fork of shoutIRC) is a web IRC client that you host on your own server.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/thelounge/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "8e757df57eb5ec472942b45ccebd444b7b27a5e21872db29b98be305d660ef68",
+      "tags": [
+        "IRC",
+        "Chat"
+      ]
+    },
+    {
+      "id": "thunderbird",
+      "name": "Thunderbird",
+      "description": "[Thunderbird](https://www.thunderbird.net/) is a free and open-source personal information manager primarily used as an e-mail client with a calendar and contactbook, as well as an RSS feed reader, chat client, and news client.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/thunderbird/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "04a822ad5923af4b9ab7d5665665557020f3949440ec8799ce1f065f30cc4f87",
+      "tags": [
+        "Email"
+      ]
+    },
+    {
+      "id": "transmission",
+      "name": "Transmission",
+      "description": "[Transmission](https://www.transmissionbt.com/) is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, \u00b5TP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/transmission/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "c8f67a3a85d398f049f7cd3864c930b17bf89859107921397eb1c88ecd2a0c35",
+      "tags": [
+        "Downloaders"
+      ]
+    },
+    {
+      "id": "tvheadend",
+      "name": "Tvheadend",
+      "description": "[Tvheadend](https://www.tvheadend.org/) works as a proxy server: is a TV streaming server and recorder for Linux, FreeBSD and Android supporting DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, ISDB-T, IPTV, SAT>IP and HDHomeRun as input sources. Tvheadend offers the HTTP (VLC, MPlayer), HTSP (Kodi, Movian) and SAT>IP streaming. Multiple EPG sources are supported (over-the-air DVB and ATSC including OpenTV DVB extensions, XMLTV, PyXML).",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/tvheadend/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "de083e0cc204ea8f09374b88460909018f3bd05789d6549c5d0a1710a2e2f1ed",
+      "tags": [
+        "Media-Tools"
+      ]
+    },
+    {
+      "id": "ubooquity",
+      "name": "Ubooquity",
+      "description": "[Ubooquity](https://vaemendis.net/ubooquity/) is a free, lightweight and easy- to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/ubooquity/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "ee8a5e08771fbc53dfc4cbdc80ce90aa6c2e93ea0a8404b02fb1954d59ac29ed",
+      "tags": [
+        "Books"
+      ]
+    },
+    {
+      "id": "ungoogled-chromium",
+      "name": "Ungoogled-chromium",
+      "description": "[Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium) is Google Chromium, sans dependency on Google web services.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/ungoogled-chromium/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "65cd97e36c477bc2006e43f8bec91904bc797f40fa24ac3fdec3ef87c8617b8c",
+      "tags": [
+        "Web-Browser"
+      ]
+    },
+    {
+      "id": "unifi-network-application",
+      "name": "Unifi-network-application",
+      "description": "The [Unifi-network-application](https://ui.com/) software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/unifi-network-application/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "299dcb2a777ea654c1fe8bdde52813ef005980e1809a04a7372726f702ba9f21",
+      "tags": [
+        "Network"
+      ]
+    },
+    {
+      "id": "vivaldi",
+      "name": "Vivaldi",
+      "description": "[Vivaldi](https://vivaldi.com/) is a Norwegian freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/vivaldi/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "979606cdd8aa4f4f1f83aee61721d14f61ec3e30f58a7ab04cffec62c810d920",
+      "tags": [
+        "Web-Browser"
+      ]
+    },
+    {
+      "id": "vlc",
+      "name": "Vlc",
+      "description": "[VLC Media Player](https://www.videolan.org/vlc/) is a free and open source cross-platform multimedia player and framework that delivers dependable performance across multiple devices.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/vlc/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "b1ec2e33949b487daac9c78116376ebfc79cc02fb52c6b6e16ea8b239b2e7ce1",
+      "tags": [
+        "Media-Management"
+      ]
+    },
+    {
+      "id": "vscode",
+      "name": "Vscode",
+      "description": "[VS Code](https://code.visualstudio.com/) is an integrated development environment developed by Microsoft. This container runs the full desktop application, for a web native version see [Code Server](https://github.com/linuxserver/docker-code-server).",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/vscode/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "9bbf6266d2d3d85bf767191e09213c8208d5a7f08f8f9f96892a227bbd4ee18a",
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "id": "vscodium",
+      "name": "Vscodium",
+      "description": "[VSCodium](https://vscodium.com/) is a community-driven, freely-licensed binary distribution of Microsoft\u2019s editor VS Code.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/vscodium/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "1199ce6cc6a88068db131c0c5c1427ea02a8562487de217a75d92beea4a0138b",
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "id": "vscodium-web",
+      "name": "Vscodium-web",
+      "description": "[Vscodium-web](https://vscodium.com/) is a community-driven, freely-licensed binary distribution of the remote host web component of Microsoft's editor VS Code.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/vscodium-web/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "d77793438f701a25e93ddbacf60c8eefe293f219c2e1fdd6e21e654df89ab053",
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "id": "webcord",
+      "name": "Webcord",
+      "description": "[WebCord](https://github.com/SpacingBat3/WebCord) can be summarized as a pack of security and privacy hardenings, Discord features reimplementations, Electron / Chromium / Discord bugs workarounds, stylesheets, internal pages and wrapped https://discord.com page, designed to conform with ToS as much as it is possible (or hide the changes that might violate it from Discord's eyes).",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/webcord/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "aa320146158357fdc296950439e6bda004792d92a4d115bc122a1ac1166b302c",
+      "tags": [
+        "Chat"
+      ]
+    },
+    {
+      "id": "webgrabplus",
+      "name": "Webgrabplus",
+      "description": "[Webgrabplus](https://www.webgrabplus.com) is a multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/webgrabplus/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "f44306c8d7c3b2aa73017e41f471ecff60094a7838d83d72a5713a07500b8676",
+      "tags": [
+        "Media-Tools"
+      ]
+    },
+    {
+      "id": "webstation",
+      "name": "Webstation",
+      "description": "[Webstation](https://github.com/linuxserver/docker-webstation) is a web native emulation focused LXQt desktop based on Ubuntu.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/webstation/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "2cc62253aecff178348c7cc666aef7e22c2cda882cd6eb652ef8d1e931d337a6",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "webtop",
+      "name": "Webtop",
+      "description": "[Webtop](https://github.com/linuxserver/docker-webtop) - Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/webtop/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "f34de7bbf0d0d18a5f32db96eaeb8bc0d9c1a79fa78f8a47de2ebe099cbf4b6d",
+      "tags": [
+        "Remote-Desktop"
+      ]
+    },
+    {
+      "id": "weixin",
+      "name": "Weixin",
+      "description": "[Weixin](https://weixin.qq.com/) (WeChat) is an instant messaging, social media, and mobile payment app developed by Tencent.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/weixin/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "4fa4391434ba74df99fa6879ecf072b7d6dd6483421c247ca424bc84e5c08934",
+      "tags": [
+        "Chat"
+      ]
+    },
+    {
+      "id": "wikijs",
+      "name": "Wikijs",
+      "description": "[Wikijs](https://github.com/Requarks/wiki) A modern, lightweight and powerful wiki app built on NodeJS.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/wikijs/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "af1fc4f2fbce271b474c9b3db5c4fcc4c6414e994ec19ceaf2bf775e19597909",
+      "tags": [
+        "Content-Management"
+      ]
+    },
+    {
+      "id": "winegui",
+      "name": "Winegui",
+      "description": "[WineGUI](https://gitlab.melroy.org/melroy/winegui) is a user-interface friendly Wine manager that provides a graphical frontend for creating and managing Wine bottles.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/winegui/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "befba4e1d64763811ba2b31ce99750b5b19ec73ac975d7db3e87f5aea24c508f",
+      "tags": [
+        "Games",
+        "Business"
+      ]
+    },
+    {
+      "id": "wireguard",
+      "name": "Wireguard",
+      "description": "[WireGuard\u00ae](https://www.wireguard.com/) is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general purpose VPN for running on embedded interfaces and super computers alike, fit for many different circumstances. Initially released for the Linux kernel, it is now cross-platform (Windows, macOS, BSD, iOS, Android) and widely deployable. It is currently under heavy development, but already it might be regarded as the most secure, easiest to use, and simplest VPN solution in the industry.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/wireguard/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "c69cb192bf2b6b596c6d42a5ff07e1427098b02dbae05b8b27ab78ef828cbba1",
+      "tags": [
+        "Network",
+        "VPN"
+      ]
+    },
+    {
+      "id": "wireshark",
+      "name": "Wireshark",
+      "description": "[Wireshark](https://www.wireshark.org/) is the world\u2019s foremost and widely- used network protocol analyzer. It lets you see what\u2019s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. Wireshark development thrives thanks to the volunteer contributions of networking experts around the globe and is the continuation of a project started by Gerald Combs in 1998.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/wireshark/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "9bceca018ba12d8052e80851a0b47659c0d006648556b75329c0d35ed2fd5c7c",
+      "tags": [
+        "Network"
+      ]
+    },
+    {
+      "id": "wps-office",
+      "name": "Wps-office",
+      "description": "[WPS Office](https://www.wps.com/) is a lightweight, feature-rich comprehensive office suite with high compatibility. As a handy and professional office software, WPS Office allows you to edit files in Writer, Presentation, Spreadsheet, and PDF to improve your work efficiency.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/wps-office/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "8f46d8ef6408ae4f55ea074dc7ec1738ef775f172ae1f9177d9c509bebc4f03d",
+      "tags": [
+        "Documents"
+      ]
+    },
+    {
+      "id": "xbackbone",
+      "name": "Xbackbone",
+      "description": "[Xbackbone](https://github.com/SergiX44/XBackBone) is a simple, self-hosted, lightweight PHP file manager that support the instant sharing tool ShareX and *NIX systems. It supports uploading and displaying images, GIF, video, code, formatted text, and file downloading and uploading. Also have a web UI with multi user management, past uploads history and search support.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/xbackbone/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "d3419fe8d311ecb395469a12842c638d77ac65a63f2bc0767b12abcb8edf21ef",
+      "tags": [
+        "File-Sharing"
+      ]
+    },
+    {
+      "id": "xemu",
+      "name": "Xemu",
+      "description": "[xemu](https://xemu.app/) is a free and open-source application that emulates the original Microsoft Xbox game console, enabling people to play their original Xbox games on Windows, macOS, and Linux systems.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/xemu/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "1e4ec2a0204f72d62707021d28eb38d1955aba10c8e4301aa3fa5a27745485d3",
+      "tags": [
+        "Games"
+      ]
+    },
+    {
+      "id": "yaak",
+      "name": "Yaak",
+      "description": "[Yaak](https://yaak.app/) is a desktop API client for organizing and executing REST, GraphQL, and gRPC requests. It's built using [Tauri](https://tauri.app/), [Rust](https://www.rust-lang.org/), and [ReactJS](https://react.dev/).",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/yaak/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "fbb30afccc5e82a36caadfa9b949f7bbdd875f855a8eec8280ecfa4d897cd4a8",
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "id": "your_spotify",
+      "name": "Your_spotify",
+      "description": "[Your_spotify](https://github.com/Yooooomi/your_spotify) is a self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it! It's composed of a web server which polls the Spotify API every now and then and a web application on which you can explore your statistics.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/your_spotify/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "c12ac2532f58b0fb995b8c0a5291e8a7249dfdb06b3642f991424af31f8a1d8e",
+      "tags": [
+        "Music"
+      ]
+    },
+    {
+      "id": "zen",
+      "name": "Zen",
+      "description": "[Zen Browser](https://zen-browser.app/) is a free and open-source fork of Mozilla Firefox with a focus on privacy, customizability and design.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/zen/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "572355311f034ecfca80a42e5c647ee8759e97b2f6455978040b6435e8bb0ca2",
+      "tags": [
+        "Web-Browser"
+      ]
+    },
+    {
+      "id": "znc",
+      "name": "Znc",
+      "description": "[Znc](http://wiki.znc.in/ZNC) is an IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/znc/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "33840ab5c64927f3b6675ffb1acd4a6e3108f7db6ab8abd76c15fdeda6ee75aa",
+      "tags": [
+        "IRC"
+      ]
+    },
+    {
+      "id": "zotero",
+      "name": "Zotero",
+      "description": "[Zotero](https://www.zotero.org/) is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.",
+      "version": "1.0.0",
+      "author": "technorabilia",
+      "compose_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/zotero/docker-compose.yaml",
+      "env_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d/lsio/docker-env.cfg",
+      "documentation_url": "https://claude.ai/code/artifact/0f05a711-c358-41dc-b17d-6fd0ef4d890d",
+      "content_hash": "30e0bd75edf9c0b824f6084ebc8a097cb022aa9ee92a240254b84364f5753518",
+      "tags": [
+        "Documents"
+      ]
+    }
+  ]
+}
